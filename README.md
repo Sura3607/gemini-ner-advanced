@@ -4,10 +4,10 @@
 2. Mở file và điền API Key của bạn vào:
 3. Lấy key tại: [https://aistudio.google.com/](https://aistudio.google.com/)
  ```env
-   GEMINI_API_KEY=AIzaSy_YOUR_API_KEY_HERE
+ GEMINI_API_KEY=AIzaSy_YOUR_API_KEY_HERE
    
    # Tùy chọn model (nếu cần)
-   MODEL_PRIORITY=gemini-2.5-pro,gemini-2.5-flash,gemini-1.5-pro,gemini-1.5-flash
+ MODEL_PRIORITY=gemini-2.5-pro,gemini-2.5-flash,gemini-1.5-pro,gemini-1.5-flash
 ```
 
 ## 2. Build và Chạy Docker
