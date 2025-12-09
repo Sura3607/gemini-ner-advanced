@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  gemini_backend:
+    build: .
+    container_name: gemini_ner_smart
+    env_file:
+      - .env
+    ports:
+      - "9090:9090"
+    volumes:
+      # Mount code vào container để sửa code không cần rebuild (tùy chọn)
+      - ./model.py:/app/model.py
+    restart: unless-stopped

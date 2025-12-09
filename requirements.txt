@@ -1,0 +1,8 @@
+label-studio-ml==1.0.9
+google-generativeai
+redis
+rq
+uwsgi
+requests
+python-dotenv
+importlib-metadata>=4.4; python_version < "3.10"

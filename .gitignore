@@ -1,0 +1,29 @@
+.env
+
+# --- Python ---
+# Các file biên dịch tạm thời của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Môi trường ảo (Virtual Env) ---
+# Nếu bạn tạo môi trường ảo để test code trên máy
+venv/
+.venv/
+env/
+
+# --- IDE (Cấu hình trình soạn thảo code) ---
+# File cấu hình của VS Code, PyCharm... không nên share
+.vscode/
+.idea/
+
+# --- Label Studio ML ---
+# Các thư mục/file tự sinh ra nếu bạn lỡ chạy lệnh init trên máy local
+my_model/
+_wsgi.py
+*.sqlite3
+
+# --- OS System Files ---
+# File rác của Mac và Windows
+.DS_Store
+Thumbs.db
