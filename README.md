@@ -2,9 +2,9 @@
 
 1. Tạo một file tên là `.env` trong thư mục dự án (hoặc copy từ `.env.example`).
 2. Mở file và điền API Key của bạn vào:
-
+3. 
+# Lấy key tại: [https://aistudio.google.com/](https://aistudio.google.com/)
  ```env
-   # Lấy key tại: [https://aistudio.google.com/](https://aistudio.google.com/)
    GEMINI_API_KEY=AIzaSy_YOUR_API_KEY_HERE
    
    # Tùy chọn model (nếu cần)
